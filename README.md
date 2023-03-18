@@ -1,2 +1,2 @@
 # pcloud-dl
-PCloud dowloader from public link
+PCloud downloader from public link
