@@ -1,8 +1,12 @@
 import argparse
 import re
 from downloader import download_file
-from pcloud import PyCloud
-
+try:
+    from pcloud import PyCloud
+except:
+    import os
+    
+    os.system("pip install git+https://github.com/JavSensei/pycloud")
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("link_or_code", help="Link o código del archivo de pCloud")
