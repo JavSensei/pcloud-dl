@@ -11,7 +11,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/JavSensei/pcloud-dl",
-    packages=["<nombre_del_paquete>"],
+    packages=find_packages(),
     install_requires=["git+https://github.com/JavSensei/pycloud","tqdm"],
     entry_points={'console_scripts': ['pcloud-dl=pcloud_dl.cli:main']},
     classifiers=[
