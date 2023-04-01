@@ -1,6 +1,6 @@
 import argparse
 import re
-from downloader import download_file
+from .downloader import download_file
 try:
     from pcloud import PyCloud
 except:
