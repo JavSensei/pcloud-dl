@@ -1,8 +1,4 @@
-from pcloud import PyCloud 
+from cli import main
 
-pycloud=PyCloud("","")
-
-
-if __name__ == "__main__":
-
-  pass # TODO
+if __name__ == '__main__':
+    main()
