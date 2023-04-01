@@ -12,7 +12,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/JavSensei/pcloud-dl",
     packages=find_packages(),
-    install_requires=["pycloud @ git+ssh://git@github.com/JavSensei/pcloud-dl.git","tqdm"],
+    install_requires=["pycloud @ git+ssh://git@github.com:JavSensei/pcloud-dl.git","tqdm"],
     entry_points={'console_scripts': ['pcloud-dl=pcloud_dl.cli:main']},
     classifiers=[
         "Programming Language :: Python :: 3",
