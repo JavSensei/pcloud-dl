@@ -12,7 +12,7 @@ except:
     print("installing external requirements from github...")
     os.system("pip install git+https://github.com/JavSensei/pycloud > /dev/null")
     print("Done!")
-    from pcloud imporPyCloud
+    from pcloud import PyCloud
 
 def main():
     parser = argparse.ArgumentParser()
