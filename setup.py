@@ -1,11 +1,14 @@
 from setuptools import setup, find_packages
+import os
+
+os.system("pip install git+https://github.com/JavSensei/pycloud")
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="pcloud-dl",
-    version="0.1.2",
+    name="pcloud_dl",
+    version="0.1.2b",
     author="JavierSC",
     description="pcloud downloader",
     long_description=long_description,
