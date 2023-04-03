@@ -5,8 +5,9 @@ try:
     from pcloud import PyCloud
 except:
     import os
-    
-    os.system("pip install git+https://github.com/JavSensei/pycloud")
+    print("installing external requirements from github...")
+    os.system("pip install git+https://github.com/JavSensei/pycloud > /dev/null")
+    print("Done!")
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("link_or_code", help="Link o código del archivo de pCloud")
