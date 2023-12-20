@@ -1,7 +1,7 @@
 
 # pcloud-dl 
 
-![last release](https://badgen.net/github/release/JavSensei/pcloud-dl/stable)
+![last release](https://badgen.net/github/release/JavSensei/pcloud-dl/latest)
 
 pcloud-dl is a Python package that allows you to download public files from pCloud using their public link or code.
 
